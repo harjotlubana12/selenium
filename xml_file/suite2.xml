@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+	<suite name="macysgoogle">
+		<test name="fireFoxTest2">
+			<classes>
+				<class name="selenium.MacysAndGoogle"></class>
+			</classes>
+		</test>
+	</suite>

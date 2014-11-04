@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [as]">
+  <parameter name="browser" value="chrome"/>
+  <test name="ds(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="selenium.Google1">
+        <methods>
+          <include name="seleniumInCaps"/>
+          <include name="beforeClass"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- selenium.Google1 -->
+    </classes>
+  </test> <!-- ds(failed) -->
+</suite> <!-- Failed suite [as] -->

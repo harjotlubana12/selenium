@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<suite name="regression">
+		<test name="fireFoxTest1">
+			<parameter name="firstname" value="harjot"/>
+			<parameter name="lastname" value="singh"/>
+			<classes>
+				<class name="selenium.SeleniumTest"></class>
+				<class name="selenium.SeleniumRegressionSuite"></class>
+				<class name="selenium.SeleniumDifferentTestCaseSuite"></class>
+			</classes>
+		</test>
+	</suite>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [macys]">
+  <test name="case1(failed)">
+    <classes>
+      <class name="selenium.Macys21Oct">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="verifyPagination"/>
+          <include name="verifyQuantiy"/>
+        </methods>
+      </class> <!-- selenium.Macys21Oct -->
+    </classes>
+  </test> <!-- case1(failed) -->
+</suite> <!-- Failed suite [macys] -->

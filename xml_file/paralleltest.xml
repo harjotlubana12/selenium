@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="parallel test" parallel="tests">
+	<test name="A">
+		<parameter name="browser" value="firefox"></parameter>
+		<classes>
+			<class name="selenium.Parallel27Oct"></class>	
+		</classes>
+	</test>
+	<test name="B">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="selenium.Parallel27Oct"></class>
+		</classes>
+	</test>
+	<test name="C">
+		<parameter name="browser" value="IE"></parameter>
+		<classes>
+			<class name="selenium.Parallel27Oct"></class>
+		</classes>
+	</test>
+</suite>

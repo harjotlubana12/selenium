@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [regression]">
+  <parameter name="lastname" value="singh"/>
+  <parameter name="firstname" value="harjot"/>
+  <test name="fireFoxTest1(failed)">
+    <parameter name="lastname" value="singh"/>
+    <parameter name="firstname" value="harjot"/>
+    <classes>
+      <class name="selenium.SeleniumDifferentTestCaseSuite">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="masycTestCase"/>
+          <include name="beforeClass"/>
+          <include name="breforeSuite"/>
+          <include name="seleniumIDE"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- selenium.SeleniumDifferentTestCaseSuite -->
+      <class name="selenium.SeleniumRegressionSuite">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="beforeMethod"/>
+          <include name="beforeTest"/>
+          <include name="afterClass"/>
+          <include name="beforeSuite"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- selenium.SeleniumRegressionSuite -->
+      <class name="selenium.SeleniumTest">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="beforeClass"/>
+          <include name="afterMethod"/>
+          <include name="beforeSuite"/>
+          <include name="beforeMethod"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- selenium.SeleniumTest -->
+    </classes>
+  </test> <!-- fireFoxTest1(failed) -->
+</suite> <!-- Failed suite [regression] -->

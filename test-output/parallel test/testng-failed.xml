@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [parallel test]" parallel="tests">
+  <parameter name="browser" value="IE"/>
+  <test name="B(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="selenium.Parallel27Oct">
+        <methods>
+          <include name="profileScreenShotParallel" invocation-numbers="0"/>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- selenium.Parallel27Oct -->
+    </classes>
+  </test> <!-- B(failed) -->
+  <test name="C(failed)" parallel="tests">
+    <parameter name="browser" value="IE"/>
+    <classes>
+      <class name="selenium.Parallel27Oct">
+        <methods>
+          <include name="profileScreenShotParallel" invocation-numbers="0"/>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- selenium.Parallel27Oct -->
+    </classes>
+  </test> <!-- C(failed) -->
+  <test name="A(failed)" parallel="tests">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="selenium.Parallel27Oct">
+        <methods>
+          <include name="profileScreenShotParallel" invocation-numbers="0"/>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- selenium.Parallel27Oct -->
+    </classes>
+  </test> <!-- A(failed) -->
+</suite> <!-- Failed suite [parallel test] -->

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [macysgoogle]">
+  <test name="fireFoxTest2(failed)">
+    <classes>
+      <class name="selenium.MacysAndGoogle">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="beforeTest"/>
+          <include name="beforeClass"/>
+          <include name="breforeSuite"/>
+          <include name="seleniumIDE"/>
+          <include name="masycTestCase"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- selenium.MacysAndGoogle -->
+    </classes>
+  </test> <!-- fireFoxTest2(failed) -->
+</suite> <!-- Failed suite [macysgoogle] -->

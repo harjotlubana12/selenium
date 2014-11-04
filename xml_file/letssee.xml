@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="A">
+    <suite-file path="suite1.xml" />
+    <suite-file path="suite2.xml" />
+</suite>
